@@ -61,4 +61,9 @@ public class CarReporitoryMap implements CarRepository {
         }
         return false;
     }
+
+    @Override
+    public Car update(Car car) {
+        return null;
+    }
 }

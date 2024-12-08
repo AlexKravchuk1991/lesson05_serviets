@@ -11,5 +11,7 @@ public interface CarRepository {
     Car findById(long id);
     boolean deleteById(long id);
     boolean updateById(long id, Car car);
+    Car update(Car car);
+
 
 }
