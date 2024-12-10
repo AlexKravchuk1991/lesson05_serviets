@@ -70,6 +70,7 @@ public class CarRepositoryHibernate implements CarRepository {
         return false;
     }
 
+
     @Override
     public boolean updateById(long id, Car car) {
         Car carToUpdate = findById(id);
